@@ -1,0 +1,35 @@
+/*.tlo1
+{
+background-color:aqua;
+
+}
+*/
+html {
+    margin: 0;
+    background-color: white;
+
+}
+.header {
+    padding: 30px 0px 30px 0px;
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    background-color: #66CCFF; 
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+#collapse{
+    background-color: black;
+    border-color: transparent;
+    margin-bottom: 0px;
+    
+}
+
+video{
+    float:right;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Portal medyczny dla lekarzy i pacjentów o ultrasonografii">
+    <meta name="author" content="Karolina Koper">
+    <title>Medycyna dla lekarzy i pacjentów</title>
+    <link href="wlasny.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="row">
+           <div class="col-lg-2 col-sm-3">
+             <img src="medic-1553191_640.png" class="img-responsive">
+           </div>
+            <div class="col-lg-8 col-sm-7">
+             <h1 style="text-align:center"> Portal medyczny o ultrasonografii </h1>
+            </div>
+        </div>
+      </div>
+     <div class="row">
+       <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+              <span class="sr-only">Nawigacja</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+         </div>
+          <div class="collapse navbar-collapse" id="collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Główna</a></li>
+              <li><a href="lekarze.html">Zaloguj się</a></li>
+              <li><a href="rejestracja_lekarze.html">Zarejestruj się</a></li>
+              <li><a href="#">Kup książkę online</a></li>
+              <li class="active"><a href="#">Kontakt</a></li>
+            </ul>
+          </div>
+       </nav>
+      </div>
+        <div class="row"> 
+          <div class="col-lg-12 col-sm-12 col-xs-12">
+            <div class="jumbotron">
+               <h4>Reklama!</h4>
+                 <h5>Najnowocześniejszy sprzęt do USG! ODBIERZ 25% RABATU JUŻ DZISIAJ!</h5>
+            </div> 
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 "></div>
+            <div class="col-lg-6 col-md-6">
+              <h3>Formularz kontaktowy:</h3>
+                
+                <form role="form" class="form-horizontal">
+                   <div class="row">
+                     <div class="form-group">
+                       <label class="col-md-3 control-label" for="uzytkownik">Pani / Pan</label>
+                        <div class="col-md-9">
+                          <input type="text" class="form-control" name="uzytkownik" placeholder="Imię i nazwisko">
+                        </div>
+                     </div>
+                   </div>
+                    <div class="row">
+                     <div class="form-group">
+                        <label class="col-md-3 control-label" for="email">Email:</label>
+                          <div class="col-md-9">
+                            <input type="email" class="form-control" name="email" placeholder="Adres email">
+                              </div>
+                                  <div class="form-group">
+                                    <label class="control-label">Pisze Pani/Pan jako: </label>
+                                      <div class="radio">
+                                        <label>
+                                        <input type="radio" name="rodzaj" value="elektroniczna"> pacjent
+                                        </label>
+                                      </div>
+                                       <div class="radio">
+                                          <label>
+                                            <input type="radio" name="rodzaj" value="pudelko"> lekarz
+                                          </label>            
+                                       </div>
+                                  </div>
+                             <div class="form-group">
+                               <label for="pytanie" class="control-label">Pytanie dotyczy:</label>
+                                  <select name="pytanie" size="1" class="form-control">
+                                      <option selected>Wybierz włąsciwą kategorię:</option>
+                                      <option value="kurs">Wersji książki online</option>
+                                      <option value="dost">Zakupu książki online</option>
+                                      <option value="plat">Płatności</option>
+                                      <option value="obsl">Obsługi</option>
+                                      <option value="rekl">Reklamacji</option>
+                                      <option value="tech">Problemów technicznych</option>
+                                      <option value="inne">Inne</option>
+                                  </select>
+                             </div>
+                                 <div class="form-group">
+                                   <label class="control-label" for="komentarz">Uwagi:</label>
+                                     <textarea name="komentarz" class="form-control" rows="5" title="Dzięki Państwa opiniom, nasze produkty będą jeszcze lepsze" data-toggle="tooltip" data-placement="top"></textarea>
+                                 </div>
+                                   <label class="control-label" for="newsletter">
+                                    <input type="checkbox" name="newsletter" value="newsletter" data-toggle="collapse" data-target="#podziekowanie"> Zgadzam się na otrzymywanie darmowego Newslettera
+                                   </label>
+                                   <div class="form-group collapse in" id="podziekowanie">
+                                      <label>Dziękujemy za wyrażenie zgody na otrzymywanie naszego newslettera.</label>
+                                   </div>
+                                      <div class="form-group">
+                                           <button type="submit" class="btn btn-default btn-lg btn-block">Wyślij</button>
+                                      </div>
+                </form>          
+                     </div>  
+                    </div>
+               </br></br></br></br>
+                <footer>
+                   <p><small>Projekt i wykonanie &copy; Karolina Koper</small></p>
+                </footer>
+            </div>
+        </div>
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $("textarea").tooltip();
+      $(".form-group.collapse").collapse();
+    </script>
+  </body>
+</html>
